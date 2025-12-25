@@ -19,7 +19,7 @@ def load_segmentation_model():
 
 def load_inpainting_model():
     model = StableDiffusionInpaintPipeline.from_pretrained(
-        "runwayml/stable-diffusion-inpainting",
+        "sd-legacy/stable-diffusion-inpainting",
     ).to(device)
     
     return model

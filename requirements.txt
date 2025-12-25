@@ -1,8 +1,6 @@
-loguru
-mkdocs
-pip
-python-dotenv
-ruff
-tqdm
-typer
--e .
+diffusers==0.35.2
+matplotlib==3.10.8
+numpy==2.4.0
+Pillow==12.0.0
+torch==2.8.0+cu126
+transformers==4.57.1

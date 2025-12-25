@@ -1,8 +1,6 @@
 import torch
 from transformers import AutoProcessor, AutoModelForZeroShotObjectDetection, SamModel, SamProcessor
-from PIL import Image
 from diffusers import StableDiffusionInpaintPipeline
-import numpy as np
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
